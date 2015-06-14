@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="ButtonStyle" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/button_normal</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="ButtonStyleSpecial" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/button_special</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
